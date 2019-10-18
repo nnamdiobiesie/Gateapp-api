@@ -54,6 +54,7 @@ class GatemanAccptNotify extends Notification
                 'resident_id' => $this->message['resident_id'],
                 'gateman_id' => $this->message['gateman_id'],
                 'home_id' => $this->message['home_id'] ?? null,
+                
             ])
             ->priority(FcmMessage::PRIORITY_HIGH);
 
